@@ -1,0 +1,50 @@
+# --- secrets & auth ---
+.env
+.env.*
+*.env
+*.key
+*.pem
+*.p12
+*.crt
+*.csr
+*.keystore
+oauth2.json
+config/secrets.json
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# --- Virtual env ---
+venv/
+.venv/
+
+# --- Editors/IDE ---
+.vscode/
+.idea/
+.DS_Store
+.python-version
+
+# --- Local data / artifacts ---
+/config/*
+!/config/example.*
+/data/*
+!/data/example.*
+*.sqlite
+*.sqlite3
+*.db
+*.db-*
+*.parquet
+*.csv
+*.tsv
+logs/
+tmp/
+

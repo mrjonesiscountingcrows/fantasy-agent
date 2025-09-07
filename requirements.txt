@@ -1,0 +1,5 @@
+requests
+schedule
+openai
+sqlalchemy
+python-dotenv
