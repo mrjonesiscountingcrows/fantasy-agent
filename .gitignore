@@ -49,3 +49,4 @@ logs/
 tmp/
 
 oauth.json
+*:Zone.Identifier
